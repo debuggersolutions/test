@@ -24,5 +24,10 @@
       "pre-commit": "lint-staged",
       "pre-push": "./vendor/bin/phpunit"
     }
+  },
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.18.9",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1"
   }
 }
