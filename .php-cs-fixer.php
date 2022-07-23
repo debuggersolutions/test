@@ -9,11 +9,10 @@ $finder = PhpCsFixer\Finder::create()
     ->ignoreDotFiles(true)
     ->ignoreVCS(true);
 
-return PhpCsFixer\Config::create()
-    ->setRules([
-        '@PSR2' => true,
-        'array_syntax' => ['syntax' => 'short'],
-        'ordered_imports' => ['sortAlgorithm' => 'alpha'],
-        'no_unused_imports' => true,
-    ])
+$config = new PhpCsFixer\Config();
+return $config->setRules([
+    '@PSR2' => true,
+    'array_syntax' => ['syntax' => 'short'],
+    'no_unused_imports' => true,
+])
     ->setFinder($finder);
