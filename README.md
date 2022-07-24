@@ -1,6 +1,6 @@
 ## Project installation
 
-- **Command to install the vendor folder by [composer](https://getcomposer.org/)**
+- **Install the vendor by [composer](https://getcomposer.org/)**
 
 ```
     composer update
