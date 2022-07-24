@@ -1,25 +1,21 @@
 ## Project installation
 
-Command to install the vendor folder
-
-- **[composer](https://getcomposer.org/) update**
+- **Command to install the vendor folder by [composer]**
 
 ```
     composer update
 ```
 
-Install the node_modules folder
-
-- **[npm](https://nodejs.org/en/) i**
+- **Install the node_modules by [npm](https://nodejs.org/en/)**
 
 ```
-npm i
+    npm i
 ```
 
-Install a package for JS indentation (pre-commit)
+- **Install a package for JS indentation (pre-commit)**
 
 ```
-- npm i prettier
+    npm i prettier
 ```
 
 ## License
