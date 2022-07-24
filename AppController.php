@@ -1,7 +1,7 @@
 <?php
 
-if (1==0) {
+if(1==0){
 echo "aaa";
-} else {
+}else{
 echo "aaa";
 }
