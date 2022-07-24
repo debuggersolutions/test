@@ -1,6 +1,8 @@
 ## Project installation
 
-- **[Vehikl](https://vehikl.com/)**
+Command to install the vendor folder
+
+- **[Vehikl](https://vehikl.com/) dsf**
 
 ## License
 
