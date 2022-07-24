@@ -2,7 +2,11 @@
 
 Command to install the vendor folder
 
-- **[Vehikl](https://vehikl.com/) dsf**
+- **[composer](https://getcomposer.org/) update**
+
+Install the node_modules folder
+
+- **[npm](https://nodejs.org/en/) i**
 
 ## License
 
