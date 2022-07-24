@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "husky": {
+    "hooks": {
+      "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
+    "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
+    "post-applypatch": "echo \"[Husky] post-applypatch\"",
+    "pre-commit": "echo \"[Husky] pre-commit\"",
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/debuggersolutions/test.git"
@@ -18,13 +26,5 @@
   "homepage": "https://github.com/debuggersolutions/test#readme",
   "dependencies": {
     "husky": "^8.0.1"
-  },
-  "husky": {
-    "hooks": {
-      "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
-    "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
-    "post-applypatch": "echo \"[Husky] post-applypatch\"",
-    "pre-commit": "echo \"[Husky] pre-commit\"",
-    }
   }
 }
